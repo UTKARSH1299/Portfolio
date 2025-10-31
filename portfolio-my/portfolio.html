@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>UTKARSH - DEVELOPER PORTFOLIO</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a2b7e2a4a1.js" crossorigin="anonymous"></script>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">UTKARSH PORTFOLIO</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#secondSection">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="firstSection">
+      <div class="leftsection">
+        Hi, My name is <span class="purple">UTKARSH</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="bg.png" alt="Background Image" />
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- ABOUT -->
+    <section id="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Resume</h1>
+      <div class="container">
+        <h1>Utkarsh</h1>
+
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>Email: <a href="mailto:um576342@gmail.com">um576342@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/utkarsh-mishra-4294a0244" target="_blank">linkedin.com/in/utkarsh-mishra-4294a0244</a></p>
+          <p>Phone: +91 6388608415</p>
+          <p>Location: Kanpur, Uttar Pradesh</p>
+        </div>
+
+        <div class="objective">
+          <h2>Objective</h2>
+          <p>Software Development graduate seeking an entry-level position to launch a fruitful career. Committed to professional development and lifelong learning.</p>
+        </div>
+
+        <div class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>B.C.A from MPGI Kanpur</li>
+            <li>Pursuing MCA from PSIT Kanpur</li>
+            <li>12th from UP BOARD in 2021 - Marks: 71%</li>
+            <li>10th from UP BOARD in 2019 - Marks: 70%</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Proficient in Java, C++, and Python</li>
+            <li>Strong problem-solving skills</li>
+            <li>Excellent communication skills</li>
+            <li>Ability to work effectively in a team and independently</li>
+            <li>Familiarity with software development methodologies</li>
+          </ul>
+        </div>
+
+        <div class="certificates">
+          <h2>Certificates</h2>
+          <ul>
+            <li>Coursera - Crash Course on Python</li>
+            <li>Internshala - Web Development</li>
+            <li>Neutrino Soft - Web Development Internship</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Backpacker Project" />
+          <div class="project-content">
+            <h3>Backpacker</h3>
+            <p>Student accommodation finder for affordable living options. Built using HTML, CSS, and JavaScript.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">GitHub</a>
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Portfolio Website" />
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio built with HTML, CSS, and JS to showcase my work and achievements.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">GitHub</a>
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Weather App" />
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>Simple app fetching live weather data using OpenWeather API. Built with JavaScript.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">GitHub</a>
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>Have a project or want to work together? Let’s get in touch!</p>
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xzzkjlpd" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="_replyto" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-icons">
+          <a href="mailto:um576342@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/utkarsh-mishra-4294a0244" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Utkarsh Mishra. All rights reserved.
+  </footer>
+
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Link JS -->
+  <script src="portfolio.js"></script>
+</body>
+</html>
